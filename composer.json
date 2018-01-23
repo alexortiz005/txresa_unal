@@ -1,0 +1,19 @@
+{
+    "name": "unal/resa-unal",
+    "type": "typo3-cms-extension",
+    "description": "This extension allows the user to manage a series of publications managed via Fusion Tables",
+    "authors": [
+        {
+            "name": "Alexis Ortiz ",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "UNAL\\ResaUnal\\": "Classes"
+        }
+    }
+}
