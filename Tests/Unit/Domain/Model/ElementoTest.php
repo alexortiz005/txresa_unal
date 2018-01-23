@@ -127,10 +127,10 @@ class ElementoTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
     /**
      * @test
      */
-    public function getTabIframesReturnsInitialValueForInt()
+    public function getTabIframesReturnsInitialValueForString()
     {
         self::assertSame(
-            0,
+            '',
             $this->subject->getTabIframes()
         );
     }
@@ -138,12 +138,12 @@ class ElementoTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
     /**
      * @test
      */
-    public function setTabIframesForIntSetsTabIframes()
+    public function setTabIframesForStringSetsTabIframes()
     {
-        $this->subject->setTabIframes(12);
+        $this->subject->setTabIframes('Conceived at T3CON10');
 
         self::assertAttributeEquals(
-            12,
+            'Conceived at T3CON10',
             'tabIframes',
             $this->subject
         );

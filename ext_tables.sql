@@ -52,7 +52,7 @@ CREATE TABLE tx_resaunal_domain_model_elemento (
 	nombre_display varchar(255) DEFAULT '' NOT NULL,
 	informacion text,
 	tab_informacion varchar(255) DEFAULT '' NOT NULL,
-	tab_iframes int(11) DEFAULT '0' NOT NULL,
+	tab_iframes varchar(255) DEFAULT '' NOT NULL,
 	iframes int(11) unsigned DEFAULT '0' NOT NULL,
 
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,

@@ -11,11 +11,15 @@ call_user_func(
             'UNAL.ResaUnal',
             'Estudioresa',
             [
-                
+                'Categoria' => 'list, show',
+                'Elemento' => 'list, show',
+                'Iframe' => 'list, show'
             ],
             // non-cacheable actions
             [
-                
+                'Categoria' => '',
+                'Elemento' => '',
+                'Iframe' => ''
             ]
         );
 

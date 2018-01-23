@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-23T17:50:35Z" product-name="resa_unal">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-23T18:46:49Z" product-name="resa_unal">
 		<header/>
 		<body>
 			<trans-unit id="tx_resaunal_domain_model_categoria">
@@ -28,10 +28,10 @@
 				<source>Informacion</source>
 			</trans-unit>
 			<trans-unit id="tx_resaunal_domain_model_elemento.tab_informacion">
-				<source>Tab Informacion</source>
+				<source>Titulo Pestaña Informacion</source>
 			</trans-unit>
 			<trans-unit id="tx_resaunal_domain_model_elemento.tab_iframes">
-				<source>Tab Iframes</source>
+				<source>Titulo Pestaña Iframes</source>
 			</trans-unit>
 			<trans-unit id="tx_resaunal_domain_model_elemento.iframes">
 				<source>Iframes</source>

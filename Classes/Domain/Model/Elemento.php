@@ -48,7 +48,7 @@ class Elemento extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * tabIframes
      *
-     * @var int
+     * @var string
      */
     protected $tabIframes = 0;
 
@@ -166,27 +166,6 @@ class Elemento extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     }
 
     /**
-     * Returns the tabIframes
-     *
-     * @return int $tabIframes
-     */
-    public function getTabIframes()
-    {
-        return $this->tabIframes;
-    }
-
-    /**
-     * Sets the tabIframes
-     *
-     * @param int $tabIframes
-     * @return void
-     */
-    public function setTabIframes($tabIframes)
-    {
-        $this->tabIframes = $tabIframes;
-    }
-
-    /**
      * Adds a Iframe
      *
      * @param \UNAL\ResaUnal\Domain\Model\Iframe $iframe
@@ -227,5 +206,26 @@ class Elemento extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function setIframes(\TYPO3\CMS\Extbase\Persistence\ObjectStorage $iframes)
     {
         $this->iframes = $iframes;
+    }
+
+    /**
+     * Returns the tabIframes
+     *
+     * @return string tabIframes
+     */
+    public function getTabIframes()
+    {
+        return $this->tabIframes;
+    }
+
+    /**
+     * Sets the tabIframes
+     *
+     * @param int $tabIframes
+     * @return void
+     */
+    public function setTabIframes($tabIframes)
+    {
+        $this->tabIframes = $tabIframes;
     }
 }

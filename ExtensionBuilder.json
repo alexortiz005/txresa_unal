@@ -10,8 +10,8 @@
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
-                    "_default0_list": false,
-                    "_default1_show": false,
+                    "_default0_list": true,
+                    "_default1_show": true,
                     "_default2_new_create": false,
                     "_default3_edit_update": false,
                     "_default4_delete": false,
@@ -82,8 +82,8 @@
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
-                    "_default0_list": false,
-                    "_default1_show": false,
+                    "_default0_list": true,
+                    "_default1_show": true,
                     "_default2_new_create": false,
                     "_default3_edit_update": false,
                     "_default4_delete": false,
@@ -152,7 +152,7 @@
                             "propertyIsExcludeField": true,
                             "propertyIsRequired": false,
                             "propertyName": "tabIframes",
-                            "propertyType": "Select",
+                            "propertyType": "String",
                             "uid": "28587567780"
                         }
                     ]
@@ -184,8 +184,8 @@
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
-                    "_default0_list": false,
-                    "_default1_show": false,
+                    "_default0_list": true,
+                    "_default1_show": true,
                     "_default2_new_create": false,
                     "_default3_edit_update": false,
                     "_default4_delete": false,
@@ -262,8 +262,8 @@
         },
         "extensionKey": "resa_unal",
         "name": "RESA Unal",
-        "originalExtensionKey": "",
-        "originalVendorName": "",
+        "originalExtensionKey": "resa_unal",
+        "originalVendorName": "UNAL",
         "persons": [
             {
                 "company": "UNAL",
@@ -312,7 +312,7 @@
         }
     ],
     "log": {
-        "last_modified": "2018-01-23 05:50",
+        "last_modified": "2018-01-23 06:46",
         "extension_builder_version": "8.6.0",
         "be_user": " (1)"
     }
