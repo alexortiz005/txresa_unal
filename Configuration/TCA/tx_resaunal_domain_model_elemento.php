@@ -143,21 +143,18 @@ return [
             'config' => [
                 'type' => 'input',
                 'size' => 30,
-                'eval' => 'trim'
+                'eval' => 'trim',
+                'autocomplete' => true
             ],
         ],
         'tab_iframes' => [
             'exclude' => true,
             'label' => 'LLL:EXT:resa_unal/Resources/Private/Language/locallang_db.xlf:tx_resaunal_domain_model_elemento.tab_iframes',
             'config' => [
-                'type' => 'select',
-                'renderType' => 'selectSingle',
-                'items' => [
-                    ['-- Label --', 0],
-                ],
-                'size' => 1,
-                'maxitems' => 1,
-                'eval' => ''
+                'type' => 'input',
+                'size' => 30,
+                'eval' => 'trim',
+                'autocomplete' => true
             ],
         ],
         'iframes' => [
