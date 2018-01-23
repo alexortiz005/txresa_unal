@@ -164,6 +164,7 @@ return [
                 'type' => 'select',
                 'renderType' => 'selectMultipleSideBySide',
                 'foreign_table' => 'tx_resaunal_domain_model_iframe',
+                'enableMultiSelectFilterTextfield' => true,
                 'MM' => 'tx_resaunal_elemento_iframe_mm',
                 'size' => 10,
                 'autoSizeMax' => 30,

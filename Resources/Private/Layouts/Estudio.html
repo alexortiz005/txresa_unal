@@ -1,0 +1,34 @@
+<div class="tx-resa-unal">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="panel-group" id="accordion">
+					<f:for each="{categorias}" as="categoria">
+						<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseCategoria{categoria.uid}">						
+									{categoria.nombreDisplay}</a>
+									</h4>
+								</div>
+								<div id="collapseCategoria{categoria.uid}" class="panel-collapse collapse">
+								<div class="panel-body">
+									<div class="list-group">
+										<f:for each="{categoria.elementos}" as="elemento">
+											<f:link.action class="list-group-item" controller="Elemento" action="show" arguments="{elemento : elemento}"> {elemento.nombreDisplay}</f:link.action>
+										</f:for>
+									</div>
+								</div>
+							</div>
+						</div>				  
+					</f:for>
+				</div>				
+			</div>
+
+			<div class="col-md-9">				
+				<f:render section="main"/>		
+			</div>
+		</div>
+		
+	</div>
+</div>

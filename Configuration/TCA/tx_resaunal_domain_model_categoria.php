@@ -133,6 +133,7 @@ return [
                 'type' => 'select',
                 'renderType' => 'selectMultipleSideBySide',
                 'foreign_table' => 'tx_resaunal_domain_model_elemento',
+                'enableMultiSelectFilterTextfield' => true,
                 'MM' => 'tx_resaunal_categoria_elemento_mm',
                 'size' => 10,
                 'autoSizeMax' => 30,

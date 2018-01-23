@@ -17,17 +17,15 @@ namespace UNAL\ResaUnal\Controller;
  */
 class ElementoController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
-    /**
-     * action list
-     *
-     * @return void
-     */
-    public function listAction()
-    {
-        $elementos = $this->elementoRepository->findAll();
-        $this->view->assign('elementos', $elementos);
-    }
 
+    /**
+     * categoriaRepository
+     *
+     * @var \UNAL\ResaUnal\Domain\Repository\CategoriaRepository
+     * @inject
+     */
+    protected $categoriaRepository = null;
+    
     /**
      * action show
      *
@@ -36,6 +34,12 @@ class ElementoController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
      */
     public function showAction(\UNAL\ResaUnal\Domain\Model\Elemento $elemento)
     {
-        $this->view->assign('elemento', $elemento);
+        $categorias = $this->categoriaRepository->findAll();
+
+        $this->view->assignMultiple([
+            'categorias' => $categorias,
+            'elementoEstudio' => $elemento,            
+        ]);
+    
     }
 }
