@@ -3,15 +3,15 @@
         {
             "config": {
                 "position": [
-                    43,
-                    86
+                    42,
+                    85
                 ]
             },
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
                     "_default0_list": true,
-                    "_default1_show": true,
+                    "_default1_show": false,
                     "_default2_new_create": false,
                     "_default3_edit_update": false,
                     "_default4_delete": false,
@@ -75,14 +75,14 @@
         {
             "config": {
                 "position": [
-                    329,
-                    83
+                    328,
+                    82
                 ]
             },
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
-                    "_default0_list": true,
+                    "_default0_list": false,
                     "_default1_show": true,
                     "_default2_new_create": false,
                     "_default3_edit_update": false,
@@ -177,15 +177,15 @@
         {
             "config": {
                 "position": [
-                    332,
-                    301
+                    331,
+                    300
                 ]
             },
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
-                    "_default0_list": true,
-                    "_default1_show": true,
+                    "_default0_list": false,
+                    "_default1_show": false,
                     "_default2_new_create": false,
                     "_default3_edit_update": false,
                     "_default4_delete": false,
@@ -234,7 +234,7 @@
                             "propertyIsExcludeField": true,
                             "propertyIsRequired": false,
                             "propertyName": "iframe",
-                            "propertyType": "String",
+                            "propertyType": "Text",
                             "uid": "312151791879"
                         }
                     ]
@@ -312,7 +312,7 @@
         }
     ],
     "log": {
-        "last_modified": "2018-01-23 06:46",
+        "last_modified": "2018-01-24 01:31",
         "extension_builder_version": "8.6.0",
         "be_user": " (1)"
     }

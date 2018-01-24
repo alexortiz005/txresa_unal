@@ -20,10 +20,44 @@ plugin.tx_resaunal_estudioresa {
     }
 }
 
+# these classes are only used in auto-generated templates
+plugin.tx_resaunal._CSS_DEFAULT_STYLE (
+    textarea.f3-form-error {
+        background-color:#FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    input.f3-form-error {
+        background-color:#FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    .tx-resa-unal table {
+        border-collapse:separate;
+        border-spacing:10px;
+    }
+
+    .tx-resa-unal table th {
+        font-weight:bold;
+    }
+
+    .tx-resa-unal table td {
+        vertical-align:top;
+    }
+
+    .typo3-messages .message-error {
+        color:red;
+    }
+
+    .typo3-messages .message-ok {
+        color:green;
+    }
+)
+
 page{
     includeCSS {
         style = EXT:resa_unal/Resources/Public/Css/style.css
-     }
+    }
     
     includeJS{
         script = EXT:resa_unal/Resources/Public/Js/script.js

@@ -95,7 +95,7 @@ CREATE TABLE tx_resaunal_domain_model_iframe (
 
 	nombre varchar(255) DEFAULT '' NOT NULL,
 	nombre_display varchar(255) DEFAULT '' NOT NULL,
-	iframe varchar(255) DEFAULT '' NOT NULL,
+	iframe text,
 
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,
 	crdate int(11) unsigned DEFAULT '0' NOT NULL,

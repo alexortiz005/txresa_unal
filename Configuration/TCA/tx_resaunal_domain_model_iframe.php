@@ -130,10 +130,11 @@ return [
             'exclude' => true,
             'label' => 'LLL:EXT:resa_unal/Resources/Private/Language/locallang_db.xlf:tx_resaunal_domain_model_iframe.iframe',
             'config' => [
-                'type' => 'input',
-                'size' => 30,
+                'type' => 'text',
+                'cols' => 40,
+                'rows' => 15,
                 'eval' => 'trim'
-            ],
+            ]
         ],
     
     ],

@@ -50,18 +50,4 @@ class CategoriaControllerTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
 
         $this->subject->listAction();
     }
-
-    /**
-     * @test
-     */
-    public function showActionAssignsTheGivenCategoriaToView()
-    {
-        $categoria = new \UNAL\ResaUnal\Domain\Model\Categoria();
-
-        $view = $this->getMockBuilder(\TYPO3\CMS\Extbase\Mvc\View\ViewInterface::class)->getMock();
-        $this->inject($this->subject, 'view', $view);
-        $view->expects(self::once())->method('assign')->with('categoria', $categoria);
-
-        $this->subject->showAction($categoria);
-    }
 }

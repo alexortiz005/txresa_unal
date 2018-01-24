@@ -143,8 +143,7 @@ return [
             'config' => [
                 'type' => 'input',
                 'size' => 30,
-                'eval' => 'trim',
-                'autocomplete' => true
+                'eval' => 'trim'
             ],
         ],
         'tab_iframes' => [
@@ -153,8 +152,7 @@ return [
             'config' => [
                 'type' => 'input',
                 'size' => 30,
-                'eval' => 'trim',
-                'autocomplete' => true
+                'eval' => 'trim'
             ],
         ],
         'iframes' => [
@@ -164,7 +162,6 @@ return [
                 'type' => 'select',
                 'renderType' => 'selectMultipleSideBySide',
                 'foreign_table' => 'tx_resaunal_domain_model_iframe',
-                'enableMultiSelectFilterTextfield' => true,
                 'MM' => 'tx_resaunal_elemento_iframe_mm',
                 'size' => 10,
                 'autoSizeMax' => 30,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-23T18:46:49Z" product-name="resa_unal">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-24T01:31:35Z" product-name="resa_unal">
 		<header/>
 		<body>
 			<trans-unit id="tx_resaunal_domain_model_categoria">
@@ -28,10 +28,10 @@
 				<source>Informacion</source>
 			</trans-unit>
 			<trans-unit id="tx_resaunal_domain_model_elemento.tab_informacion">
-				<source>Titulo Pestaña Informacion</source>
+				<source>Tab Informacion</source>
 			</trans-unit>
 			<trans-unit id="tx_resaunal_domain_model_elemento.tab_iframes">
-				<source>Titulo Pestaña Iframes</source>
+				<source>Tab Iframes</source>
 			</trans-unit>
 			<trans-unit id="tx_resaunal_domain_model_elemento.iframes">
 				<source>Iframes</source>
@@ -47,15 +47,6 @@
 			</trans-unit>
 			<trans-unit id="tx_resaunal_domain_model_iframe.iframe">
 				<source>Iframe</source>
-			</trans-unit>
-			<trans-unit id="tx_resaunal_plugin_estudios.titulo_categorias">
-				<source>Titulo de las Categorias</source>
-			</trans-unit>
-			<trans-unit id="tx_resaunal_plugin_estudios.titulo_bienvenida">
-				<source>Titulo de Bienvenida</source>
-			</trans-unit>
-			<trans-unit id="tx_resaunal_plugin_estudios.texto_bienvenida">
-				<source>Texto de Bienvenida</source>
 			</trans-unit>
 		</body>
 	</file>

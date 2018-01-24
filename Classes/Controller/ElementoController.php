@@ -34,10 +34,13 @@ class ElementoController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
      */
     public function showAction(\UNAL\ResaUnal\Domain\Model\Elemento $elemento)
     {
+        $categoria_uid=$this->request->getArgument('categoria');
         $categorias = $this->categoriaRepository->findAll();
+        $categoria = $this->categoriaRepository->findByUid($categoria_uid);
 
         $this->view->assignMultiple([
             'categorias' => $categorias,
+            'categoriaEstudio' => $categoria,
             'elementoEstudio' => $elemento,            
         ]);
     

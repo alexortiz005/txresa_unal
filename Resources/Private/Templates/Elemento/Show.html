@@ -5,9 +5,38 @@
 
 <f:flashMessages />
 
-<div class="panel panel-default">
+<div class="panel panel-default" id="panel-elemento">
   <div class="panel-heading"><h4 class="panel-title"> {elementoEstudio.nombreDisplay} </h4></div>
-  <div class="panel-body"><f:format.html>{}</f:format.html></div>
+  <div class="panel-body">
+
+  	<ul class="nav nav-tabs">
+	  <li class="active"><a data-toggle="tab" href="#iframes">{elementoEstudio.tabIframes}</a></li>
+	  <li><a data-toggle="tab" href="#informacion">{elementoEstudio.tabInformacion}</a></li>
+	</ul>
+
+	<div class="tab-content">
+	  <div id="iframes" class="tab-pane fade in active">
+	     <ul class="nav nav-pills nav-justified">
+	  	  	<f:for each="{elementoEstudio.iframes}" as="iframe" iteration="iterator">
+		    	<li class="{f:if(condition: iterator.isFirst, then: 'active', else: '')}"><a data-toggle="tab" href="#menuIframe{iframe.uid}">{iframe.nombreDisplay}</a></li>			
+			</f:for>
+		  </ul>
+
+		  <div class="tab-content">
+		  	<f:for each="{elementoEstudio.iframes}" as="iframe" iteration="iterator">
+			    <div id="menuIframe{iframe.uid}" class="tab-pane fade {f:if(condition: iterator.isFirst, then: 'in active', else: '')}">
+			    <iframe scrolling="no" frameborder="no" src="{iframe.iframe}"></iframe>
+			    </div>	    
+			</f:for>
+		  </div>
+	  </div>
+	  <div id="informacion" class="tab-pane fade">
+	    <f:format.html>{elementoEstudio.informacion}</f:format.html>
+	  </div>
+	</div> 
+  	
+
+  </div>
 </div>
 
     	
