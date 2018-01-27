@@ -48,6 +48,15 @@
 			<trans-unit id="tx_resaunal_domain_model_iframe.iframe">
 				<source>Iframe</source>
 			</trans-unit>
+			<trans-unit id="tx_resaunal_plugin_estudios.titulo_categorias">
+				<source>Título de las Cátegorias</source>
+			</trans-unit>
+			<trans-unit id="tx_resaunal_plugin_estudios.titulo_bienvenida">
+				<source>Título de Bienvenida</source>
+			</trans-unit>
+			<trans-unit id="tx_resaunal_plugin_estudios.texto_bienvenida">
+				<source>Texto de Bienvenida</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
