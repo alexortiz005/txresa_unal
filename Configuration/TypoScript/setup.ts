@@ -59,7 +59,7 @@ page{
         style = EXT:resa_unal/Resources/Public/Css/style.css
     }
     
-    includeJS{
+    includeJSFooter{
         script = EXT:resa_unal/Resources/Public/Js/script.js
     }
 }

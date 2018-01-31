@@ -33,10 +33,14 @@ class CategoriaController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContro
     public function listAction()
     {    
 
-        $categorias = $this->categoriaRepository->findAll();
+        $categorias_uids=explode(',',$this->settings['categorias']);
+        $categorias_temp=[];
+        foreach ($categorias_uids as $key => $uid) {
+            $categorias_temp[]= $categorias = $this->categoriaRepository->findByUid($uid);
+        }       
 
         $this->view->assignMultiple([
-            'categorias' => $categorias
+            'categorias' => $categorias_temp
         ]);
 
 

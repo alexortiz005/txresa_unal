@@ -9,4 +9,57 @@ iframe{
 
 .nav{
 	margin-bottom: 0.7em;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+a {
+    color: royalblue;
+}
+
+a:hover, a:focus {
+    color: unset;
+    text-decoration: none;
+}
+
+.frame {
+    /* padding: unset; */
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: royalblue;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color: royalblue;
+    border-color: royalblue;
+}
+
+.panel-primary > .panel-heading {
+    background-color: royalblue;
+    border-color: royalblue;
+}
+
+.panel-primary {
+    border-color: royalblue;
+}
+
+.tx-resa-unal em{
+	font-style: italic;
+}
+
+.tx-resa-unal .panel-body > h6,h5,h4,h3,h2,h1{
+	font-weight: unset;
+}
+
+.tx-resa-unal ol {
+    padding-left: 0.5em;
+}
+
+.tx-resa-unal ol li {
+    list-style-type: decimal; /* or 'decimal-leading-zero', 'upper-alpha', 'lower-alpha'... */
+    list-style-position: outside; /* or 'inside' */
+    margin-left: 1em; /* gives 'room' for the numbers to appear in */
 }

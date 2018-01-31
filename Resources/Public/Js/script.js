@@ -1,0 +1,1 @@
+$('.frame-type-accordion .panel-collapse').removeClass('in');

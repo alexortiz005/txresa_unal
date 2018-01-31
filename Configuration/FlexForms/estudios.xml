@@ -40,7 +40,22 @@
                                 <rows>5</rows>
                             </config>
                         </TCEforms>
-                    </settings.texto_bienvenida>   
+                    </settings.texto_bienvenida>
+                    <settings.categorias>
+                        <TCEforms>
+                            <exclude>1</exclude>
+                            <label>LLL:EXT:resa_unal/Resources/Private/Language/locallang_db.xlf:tx_resaunal_plugin_estudios.titulo_categorias_a_mostrar</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>tx_resaunal_domain_model_categoria</allowed>
+                                <size>10</size>
+                                <maxitems>100</maxitems>
+                                <minitems>1</minitems>
+                                <show_thumbs>1</show_thumbs>
+                            </config>
+                        </TCEforms>
+                    </settings.categorias>   
                 </el>
             </ROOT>
         </sDEF>
